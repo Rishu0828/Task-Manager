@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <h1>Task Manger</h1>
+      </nav>
+
+      <div class="tasks">
+        <div class="task-data">
+          <div class="left">
+            <div class="tick"><i class="ri-check-line"></i></div>
+            <p class="task">Ye task hai</p>
+          </div>
+          <div class="right">
+            <p class="status">Pending</p>
+            <div class="btns">
+              <button id="update">Update</button>
+              <button id="del">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="add-task">
+        <input type="text" placeholder="Add your task..!" />
+        <button>Add</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
